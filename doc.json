@@ -1,0 +1,6 @@
+{
+  "name": "reloader",
+  "description": "Automatically reloads your plugins when their main files are modified",
+  "author": "cake",
+  "commands": []
+}

@@ -1,0 +1,14 @@
+{
+  "name": "reloader",
+  "version": "0.0.1",
+  "description": "Automatically reloads omegga plugins",
+  "main": "omegga.main.js",
+  "scripts": {
+    "test": "omegga"
+  },
+  "author": "cake",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.4.3"
+  }
+}
