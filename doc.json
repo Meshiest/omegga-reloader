@@ -2,5 +2,12 @@
   "name": "reloader",
   "description": "Automatically reloads your plugins when their main files are modified",
   "author": "cake",
+  "config": {
+    "watch-all-js": {
+      "description": "Watch changes in all js files (rather than just omegga.*.js)",
+      "type": "boolean",
+      "default": false
+    }
+  },
   "commands": []
 }
