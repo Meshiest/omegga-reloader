@@ -6,6 +6,10 @@ An automatic plugin reloader for [omegga](https://github.com/brickadia-community
 
 ## Install
 
+Easy: `omegga install gh:Meshiest/reloader`
+
+Manual:
+
 * `git clone https://github.com/meshiest/omegga-reloader reloader` in `plugins` directory
 * `npm i` in `reloader` directory
 
