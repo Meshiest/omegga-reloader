@@ -1,10 +1,14 @@
 {
   "name": "reloader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatically reloads omegga plugins",
   "main": "omegga.main.js",
   "scripts": {
     "test": "omegga"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meshiest/omegga-reloader.git"
   },
   "author": "cake",
   "license": "ISC",
