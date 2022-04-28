@@ -30,6 +30,9 @@ module.exports = class Reloader {
 
     this.watcher
       .on('change', async file => {
+        // ignore omegga.d.ts changes
+        if (path.basename(file) === 'omegga.d.ts') return;
+
         // find the plugin that has this file
         const plugin = this.omegga.pluginLoader.plugins.find(p =>
           file.startsWith(p.path)
