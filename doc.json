@@ -7,6 +7,11 @@
       "description": "Watch changes in all js files (rather than just omegga.*.js)",
       "type": "boolean",
       "default": false
+    },
+    "watch-all-ts": {
+      "description": "Watch changes in all ts files",
+      "type": "boolean",
+      "default": false
     }
   },
   "commands": []
