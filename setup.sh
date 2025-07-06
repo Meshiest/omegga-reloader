@@ -1,1 +1,1 @@
-npm i --no-optional
+npm i --omit=optional
